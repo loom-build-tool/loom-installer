@@ -1,0 +1,4 @@
+settings:
+  java.mainClassName: builders.loom.installer.LoomInstaller
+  java.resourceFilterGlob: "*.properties"
+
