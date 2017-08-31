@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - oraclejdk9
+script: ./loom -n build
+cache:
+  directories:
+    - $HOME/.loom/library/
+    - $HOME/.loom/repository/
