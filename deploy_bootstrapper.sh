@@ -16,4 +16,4 @@ sed \
     scripts/installer.sh > build/installer.sh
 
 aws s3 cp --cache-control max-age=900 --acl public-read \
-    build/installer.sh s3://loom.builders/
+    build/installer.sh s3://download.loom.builders/

@@ -13,4 +13,4 @@ installer_version="$1"
 
 aws s3 cp --cache-control max-age=86400 --acl public-read \
     build/builders.loom.installer/jar/builders.loom.installer.jar \
-    s3://loom.builders/loom-installer-${installer_version}.jar
+    s3://download.loom.builders/loom-installer-${installer_version}.jar
