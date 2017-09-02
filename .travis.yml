@@ -1,7 +1,7 @@
 language: java
 jdk:
   - oraclejdk9
-script: ./loom -n build
+script: ./loom -n -a 0.0.99 build
 cache:
   directories:
     - $HOME/.loom/library/
